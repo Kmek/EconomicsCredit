@@ -13,67 +13,24 @@ function changeAccent(color) {
     document.documentElement.style.setProperty('--accent', color)
 }
 
-
-/******************** Page Loading Functions ********************/
-var exampleOrder = ["gdp", "life_expectancy", "literacy_rate", "poverty_rate", "labor_rate", "unemployment_rate", "military_spending", "major_industry", "imports", "exports"]
-
-// Load Info of Page into #page div
-function loadPage(info) {
-    page.classList = "visible";
-    lastPage.classList = "invisible";
-
-    page.children[0].innerHTML = info.title
-    page.children[1].setAttribute("src", info.img)
-    page.children[2].innerHTML = info.desc
-
-    page.children[5].innerHTML = info.q1
-
-    page.children[8].innerHTML = info.q2
-
-    page.children[11].innerHTML = info.q3
-
-    page.children[14].innerHTML = ""
-    for (let i = 0; i < info.positive.length; i++) {
-        let bullet = document.createElement("li")
-        bullet.innerHTML = info.positive[i]
-        page.children[14].appendChild(bullet)
-    }
-    page.children[17].innerHTML = ""
-    for (let i = 0; i < info.negative.length; i++) {
-        let bullet = document.createElement("li")
-        bullet.innerHTML = info.negative[i]
-        page.children[17].appendChild(bullet)
-    }
-
-    page.children[20].innerHTML = info.example
-    for (let i = 0; i < exampleOrder.length; i++) {
-        page.children[21].rows[i].children[1].innerHTML = info[exampleOrder[i]]
-    }
-
-    changeAccent(info.color)
+/******************** Change Title ********************/
+function changeTitle(text) {
+    document.getElementById("title").innerHTML = text
 }
 
-function loadLastPage() {
-    lastPage.classList = "visible";
-    page.classList = "invisible";
+/******************** Page Loading Functions ********************/
+function loadFile(items) {
+    // items = items.split(",")
+    window.location.href = ("#" + items)
+}
 
-    // Fill last page
-    lastPage.children[0].innerHTML = lastPageInfo.title
-    lastPage.children[1].innerHTML = ""
-    for (let i = 0; i < lastPageInfo.desc.length; i++) {
-        let p = document.createElement("p")
-        p.innerHTML = lastPageInfo.desc[i]
-        lastPage.children[1].appendChild(p)
+function loadFileFromUrl() {
+    let url = document.URL
+    if (!url.includes("#")) {
+        loadFile("welcome.html")
+    } else {
+        let file = url.slice(url.lastIndexOf("#") + 1)
+        $('#page').load("docs/" + file + "#")
+        window.scrollTo()
     }
-    lastPage.children[4].innerHTML = ""
-    for (let i = 0; i < lastPageInfo.citations.length; i++) {
-        let p = document.createElement("p")
-        let citation = lastPageInfo.citations[i]
-        citation = citation.replace("www.", "<br>www.")
-        p.innerHTML = citation
-        lastPage.children[4].appendChild(p)
-    }
-    
-
-    changeAccent("#3ea356")
 }

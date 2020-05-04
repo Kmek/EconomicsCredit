@@ -4,21 +4,24 @@
 	<title>Credit Card Public Service Website</title>
 	<meta name="author" content="Kate Keefe">
 	<meta name="description" content="Good debt vs bad debt, credit cards website for economics class">
-	<link rel="icon" href="media/economicsIcon.png">
+	<link rel="icon" href="./media/economicsIcon.png">
 
     <link href="./styles/styles.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="./scripts/script.js"></script>
 </head>
-<body>
+<body onhashchange="loadFileFromUrl()">
 	<div id="pageBackground">
         <div id="header">
             <div id="navBtn"></div>
-            <h1 id="title">Good Debt, Bad Debt</h1>
+            <h1 id="title">Welcome</h1>
         </div>
         <link rel="stylesheet" type="text/css" href="./styles/navigation.css">
         <script src="./scripts/navigation.js"></script>
 
 		<div id="page">
-
+            <script>loadFileFromUrl()</script>
 		</div>
 	</div>
     
@@ -26,8 +29,5 @@
         <span id="footerText">Website made by Kate Keefe</span>
         <a href="https://github.com/Kmek/EconomicsCredit" target="_blank"><button id="githubBtn">View on GitHub</button></a>
     </div>
-
-    <!-- <script src="./scripts/pages.js"></script>
-    <script src="./scripts/script.js"></script> -->
 </body>
 </html>

@@ -14,15 +14,24 @@ navigationDiv.setAttribute("id", "navigation")
 navBtn.appendChild(navigationDiv)
 
 /******************** Make Dropdown Contents ********************/
-const navTitles = ["Debit Cards vs. Credit Cards", "Standard Credit Cards vs. Charged Cards", "Credit Card Pros & Cons", "What To Look For", "Credit Card Common Tips", "What To Do: Stole Card", "What is a FICO Score", "Glossary"]
-const navLinks = ["", "", "", "", "", "", "", ""]
+// items are: page title, doc name, and ""
+const navItems = [
+    ["Debit Cards vs. Credit Cards", "debitCredit.html", ""],
+    ["Standard Credit Cards vs. Charged Cards", "standardCharge.html", ""],
+    ["Credit Card Pros & Cons", "prosCons.html", ""],
+    ["What To Look For", "lookFor.html", ""],
+    ["Credit Card Common Tips", "tips.html", ""],
+    ["What To Do: Stole Card", "stolen.html", ""],
+    ["What is a FICO Score", "fico.html", ""],
+    ["Glossary", "glossary.html", ""]
+]
 
 var navigationDiv = document.getElementById("navigation")
 
-for (let i = 0; i < navTitles.length; i++) {
+for (let i = 0; i < navItems.length; i++) {
     let row = document.createElement("button")
-    row.innerHTML = navTitles[i]
+    row.innerHTML = navItems[i][0]
 
-    row.setAttribute("onclick", ("loadFile('" + navLinks[i] + "')"))
+    row.setAttribute("onclick", ("loadFile('" + navItems[i][1] + "')"))
     navigationDiv.appendChild(row)
 }
