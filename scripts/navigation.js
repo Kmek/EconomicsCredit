@@ -23,7 +23,7 @@ const navItems = [
     ["Credit Card Common Tips", "tips.html", ""],
     ["What To Do: Stole Card", "stolen.html", ""],
     ["What is a FICO Score", "fico.html", ""],
-    ["Glossary", "glossary.html", ""]
+    ["Glossary", "glossary.html", "#9e4476"]
 ]
 
 var navigationDiv = document.getElementById("navigation")

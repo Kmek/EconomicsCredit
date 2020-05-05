@@ -24,14 +24,9 @@
 	top: 85px;
 	height: 0;
 	transition-duration: 0.5s;
-	overflow: hidden;
+    overflow: hidden;
+    z-index: 100;
 
-    /* width: calc(75% + 50px);
-    min-width: calc(var(--minW) + 50px);
-    max-width: 775px;
-    min-height: 40px;
-    margin-left: auto;
-    margin-right: auto; */
 }
 #navigation button {
 	/* Remove other button styles */

@@ -44,3 +44,9 @@ var terms = [{
 
 // Make a wall of square divs, make them flip over like cards (with the definition on the back)
 
+function addTerm(info) {
+    let newTerm = document.getElementsByClassName("flip-card")[0].cloneNode(true)
+    newTerm.children[0].children[0].children[0].innerHTML = info.name
+    newTerm.children[0].children[1].children[0].innerHTML = info.def
+    document.getElementById("galleryDiv").appendChild(newTerm)
+}
