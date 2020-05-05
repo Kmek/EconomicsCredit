@@ -7,11 +7,11 @@
 <style>
 .flip-card {
     background-color: transparent;
-    width: 195px;
-    height: 195px;
+    width: 200px;
+    height: 200px;
     perspective: 1000px;
     float: left;
-    margin: 10px 10px;
+    margin: 16px;
 }
 
 .flip-card-inner {
@@ -53,14 +53,9 @@
     transform: translateY(calc(-50% - 10px));
 }
 
-#galleryDiv {
-    /* background-color: orange; */
-    width: 100%;
-    height: 1075px;
-}
 </style>
 
-<div id="galleryDiv">
+<div class="row" id="galleryDiv">
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -75,7 +70,7 @@
 
 <script>
     // Make div the right height based off of term count
-    document.getElementById("galleryDiv").height = (205 * Math.ceil(terms.length / 3)) + 50 + "px"
+    document.getElementById("galleryDiv").style.height = ((200 + (16 * 2)) * Math.ceil(terms.length / 3)) + "px"
 
     // Add terms
     for (let i = 0; i < terms.length; i++) {
