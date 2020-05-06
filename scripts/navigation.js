@@ -16,13 +16,13 @@ navBtn.appendChild(navigationDiv)
 /******************** Make Dropdown Contents ********************/
 // items are: page title, doc name, and ""
 const navItems = [
-    ["Debit Cards vs. Credit Cards", "debitCredit.html", ""],
-    ["Standard Credit Cards vs. Charged Cards", "standardCharge.html", ""],
-    ["Credit Card Pros & Cons", "prosCons.html", ""],
-    ["What To Look For", "lookFor.html", ""],
-    ["Credit Card Common Tips", "tips.html", ""],
-    ["What To Do: Stole Card", "stolen.html", ""],
-    ["What is a FICO Score", "fico.html", ""],
+    ["Debit Cards vs. Credit Cards", "debitCredit.html", "#a83632"],
+    ["Standard Credit Cards vs. Charged Cards", "standardCharge.html", "#d97c11"],
+    ["Credit Card Pros & Cons", "prosCons.html", "#c9c614"],
+    ["What To Look For", "lookFor.html", "#25941f"],
+    ["Credit Card Common Tips", "tips.html", "#1f9492"],
+    ["What To Do: Stole Card", "stolen.html", "#1f4094"],
+    ["What is a FICO Score", "fico.html", "#6b1f94"],
     ["Glossary", "glossary.html", "#9e4476"]
 ]
 
