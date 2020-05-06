@@ -19,18 +19,22 @@ function changeTitle(text) {
 }
 
 /******************** Page Loading Functions ********************/
-function loadFile(items) {
-    // items = items.split(",")
-    window.location.href = ("#" + items)
+function loadFile(name) {
+    window.location.href = ("#" + name)
+}
+
+function getFileFromURL() {
+    let url = document.URL
+    if (!url.includes("#")) {
+        url = "welcome.html"
+    } else {
+        url = url.slice(url.lastIndexOf("#") + 1)
+    }
+    return url
 }
 
 function loadFileFromUrl() {
-    let url = document.URL
-    if (!url.includes("#")) {
-        loadFile("welcome.html")
-    } else {
-        let file = url.slice(url.lastIndexOf("#") + 1)
-        $('#page').load("docs/" + file + "#")
-        window.scrollTo()
-    }
+    let file = getFileFromURL()
+    $('#page').load("docs/" + file + "#")
+    window.scrollTo()
 }
