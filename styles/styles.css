@@ -119,6 +119,7 @@ body {
     background-color: white;
 }
 .blurTitle, #preHeader div {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.438);
     background-color: rgba(0, 0, 0, 0.212);
     backdrop-filter: blur(4px);
 }
@@ -344,7 +345,7 @@ a {
 
 #citations p {
 	text-indent: -25px;
-	margin-left: 22px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-left: 55px;
+	/* margin-top: 20px;
+	margin-bottom: 20px; */
 }

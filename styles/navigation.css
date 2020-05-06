@@ -17,8 +17,8 @@
 	margin-top: 25px;
 }
 #navBtn:hover #navigation {
-	/* edge doesn't calc(41px * 8) + 14 */
-    height: 345px;
+	/* edge doesn't calc(41px * 9) + 14 */
+    height: 385px;
 }
 
 #navigation {
@@ -39,11 +39,9 @@
 
     /* New button styles */
     width: 200px;
-	/* width: 20%; */
 	height: 41px;
 	background-color: var(--footer); /* change bg color */
-    border-bottom: 1px solid black; /* change border color */
-    /* border-left: 1px solid black; change border color */
+    border-bottom: 2px solid black; /* change border color */
 	transition-duration: 0.5s;
 
 	/* Color styles */
