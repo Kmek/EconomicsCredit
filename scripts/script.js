@@ -26,7 +26,7 @@ function loadFile(name) {
 function getFileFromURL() {
     let url = document.URL
     if (!url.includes("#")) {
-        url = "welcome.html"
+        url = "debitCredit.html"
     } else {
         url = url.slice(url.lastIndexOf("#") + 1)
     }
@@ -35,6 +35,7 @@ function getFileFromURL() {
 
 function loadFileFromUrl() {
     let file = getFileFromURL()
-    $('#page').load("docs/" + file + "#")
-    window.scrollTo()
+    $('#page').load(("docs/" + file + "#"), function() {
+        window.scrollTo(0, ($('#header').offset().top + 1))
+    })
 }
