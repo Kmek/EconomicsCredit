@@ -23,7 +23,8 @@ const navItems = [
     ["Credit Card Common Tips", "tips.html", "#1f9492"],
     ["What To Do: Stolen Card", "stolen.html", "#1f4094"],
     ["What is a FICO Score", "fico.html", "#6b1f94"],
-    ["Glossary", "glossary.html", "#9e4476"]
+    ["Glossary", "glossary.html", "#9e4476"],
+    ["Works Cited", "worksCited.html", "#1f9477"]
 ]
 
 var navigationDiv = document.getElementById("navigation")
@@ -39,7 +40,7 @@ for (let i = 0; i < navItems.length; i++) {
 /******************** Move Pages ********************/
 const nextBtn = document.getElementById("nextBtn")
 const backBtn = document.getElementById("backBtn")
-var currentPage = -1;
+var currentPage = 0;
 
 // Disable / enable page buttons depending on current page num
 function pageBtnsEnableCheck() {

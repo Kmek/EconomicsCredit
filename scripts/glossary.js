@@ -1,6 +1,6 @@
 var terms = [{
     name: "Credit",
-    def: "test testing asdfghj",
+    def: "",
 }, {
     name: "Interest",
     def: "",
@@ -36,10 +36,10 @@ var terms = [{
     def: "",
 }, {
     name: "Deadbeat",
-    def: "",
+    def: "Someone who always pays their cards on time. Banks HATE them.",
 }, {
     name: "Revolver",
-    def: "",
+    def: "Someone who continuously misses payments or pays late. Banks LOVE them.",
 }]
 
 // Make a wall of square divs, make them flip over like cards (with the definition on the back)

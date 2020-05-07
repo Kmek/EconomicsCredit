@@ -18,7 +18,7 @@ body {
 /********** Pre Header (Welcome) **********/
 #preHeader {
     background-color: var(--footer);
-    background-image: url("../media/money.png");
+    background-image: url("../media/cards.png");
     width: 100%;
     height: 185px;
     margin-left: auto;

@@ -6,10 +6,22 @@
 <div id="citations" class="box full">
     <div class="timeline">
         <div class="timelineDot"><div></div></div>
-        <p>Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1 Citation 1</p>
-    </div>
-    <div class="timeline">
-        <div class="timelineDot"><div></div></div>
-        <p>Citation 2</p>
+        <p>asdfghj</p>
     </div>
 </div>
+
+<script>
+    // Don't forget to add <br> before the URLs!
+    var citations = [
+        "Bergman, Lowell, and David Rummel. “Secret History Of The Credit Card - Transcript.” PBS, Public Broadcasting Service, 24 Nov. 2004, <br>www.pbs.org/wgbh/pages/frontline/shows/credit/etc/script.html."
+    ]
+
+    for (let i = 0; i < citations.length; i++) {
+        let newCit = document.getElementsByClassName("timeline")[0].cloneNode(true)
+        newCit.children[1].innerHTML = citations[i]
+        document.getElementById("citations").appendChild(newCit)
+    }
+
+    document.getElementById("citations").removeChild(document.getElementsByClassName("timeline")[0])
+
+</script>
