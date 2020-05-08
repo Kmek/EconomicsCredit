@@ -18,11 +18,11 @@ navBtn.appendChild(navigationDiv)
 const navItems = [
     ["Debit Cards vs. Credit Cards", "debitCredit.html", "#a83632"],
     ["Standard Credit Cards vs. Charged Cards", "standardCharge.html", "#d97c11"],
-    ["Credit Card Pros & Cons", "prosCons.html", "#c9c614"],
+    ["Credit Card Pros & Cons", "prosCons.html", "#c7c428"],
     ["What To Look For", "lookFor.html", "#25941f"],
-    ["Credit Card Common Tips", "tips.html", "#1f9492"],
+    ["Credit Card: Common Tips", "tips.html", "#1f9492"],
     ["What To Do: Stolen Card", "stolen.html", "#1f4094"],
-    ["What is a FICO Score", "fico.html", "#6b1f94"],
+    ["FICO Score", "fico.html", "#6b1f94"],
     ["Glossary", "glossary.html", "#9e4476"],
     ["Works Cited", "worksCited.html", "#1f9477"]
 ]
