@@ -33,8 +33,16 @@ for (let i = 0; i < navItems.length; i++) {
     let row = document.createElement("button")
     row.innerHTML = navItems[i][0]
 
-    row.setAttribute("onclick", ("loadFile('" + navItems[i][1] + "')"))
+    row.setAttribute("onclick", ("clickNav('" + i + "')"))
     navigationDiv.appendChild(row)
+}
+
+/******************** Nav Button Click ********************/
+// need to update current page and enable check on nav button click
+function clickNav(index) {
+    currentPage = index
+    loadFile(navItems[index][1])
+    pageBtnsEnableCheck()
 }
 
 /******************** Move Pages ********************/
@@ -47,10 +55,12 @@ function pageBtnsEnableCheck() {
     backBtn.disabled = false
     nextBtn.disabled = false
     
-    if (currentPage >= navItems.length) 
+    if (currentPage >= (navItems.length - 1)) 
         nextBtn.disabled = true
     if (currentPage <= 0)
         backBtn.disabled = true
+    
+    console.log("in check:", currentPage, backBtn.disabled, nextBtn.disabled)
 }
 
 // Update page num of not starting on welcome page
