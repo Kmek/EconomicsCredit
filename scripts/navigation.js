@@ -59,8 +59,6 @@ function pageBtnsEnableCheck() {
         nextBtn.disabled = true
     if (currentPage <= 0)
         backBtn.disabled = true
-    
-    console.log("in check:", currentPage, backBtn.disabled, nextBtn.disabled)
 }
 
 // Update page num of not starting on welcome page

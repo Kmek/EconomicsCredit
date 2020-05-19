@@ -21,9 +21,10 @@
     - [x] Card styles & `JS` filling functionality
 - [ ] `worksCited.html`
     - [x] `JS` filling functionality
+    - [ ] Finish citing used websites
 
-## Other Things:
+### Other Things:
 - [x] `navigation.js` and `navigation.css`
-- [ ] Break up and organize `styles.css`
+- [x] Break up and organize `styles.css`
 - [ ] Add pictures, if time
 - [ ] Add a game on one of the pages, if time (for funzies 🎮)
