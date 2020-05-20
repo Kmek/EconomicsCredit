@@ -17,7 +17,7 @@
 - [ ] `tips.html`
 - [ ] `stolen.html`
 - [ ] `fico.html`
-- [ ] `glossary.html`
+- [x] `glossary.html`
     - [x] Card styles & `JS` filling functionality
 - [ ] `worksCited.html`
     - [x] `JS` filling functionality
