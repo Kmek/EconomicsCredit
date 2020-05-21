@@ -36,6 +36,7 @@ function getFileFromURL() {
 function loadFileFromUrl() {
     let file = getFileFromURL()
     $('#page').load(("docs/" + file + "#"), function() {
-        window.scrollTo(0, ($('#header').offset().top + 1))
+        // Scroll to header
+        window.scrollTo(0, document.getElementById("preHeader").clientHeight)
     })
 }

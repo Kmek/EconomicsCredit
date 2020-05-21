@@ -26,4 +26,4 @@
 - [x] `navigation.js` and `navigation.css`
 - [x] Break up and organize `styles.css`
 - [x] Add pictures, if time
-- [ ] Need to scroll to `header` after pressing the `next` or `back` buttons
+- [x] Need to scroll to `header` after pressing the `next` or `back` buttons
