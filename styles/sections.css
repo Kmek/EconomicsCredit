@@ -46,6 +46,13 @@
     color: white;
 }
 
+.blurTitle img {
+    width: calc(100% - 30px);
+    margin: 9px 15px 5px 15px;
+	border-radius: 10px;
+    transition-duration: 2s;
+}
+
 .border {
     margin: 5px 10px;
     padding: 5px;
