@@ -10,8 +10,8 @@
 
 ### Pages in `/docs/`:
 - [x] `debitCredit.html`
-- [ ] `standardCharge.html`
-- [ ] `prosCons.html`
+- [x] `standardCharge.html`
+- [x] `prosCons.html`
     - [x] Timeline styles
 - [ ] `lookFor.html`
 - [ ] `tips.html`
@@ -28,3 +28,4 @@
 - [x] Break up and organize `styles.css`
 - [ ] Add pictures, if time
 - [ ] Add a game on one of the pages, if time (for funzies 🎮)
+- [ ] Need to scroll to `header` after pressing the `next` or `back` buttons

@@ -40,7 +40,7 @@
 .blurTitle, #preHeader div {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.438);
     background-color: rgba(0, 0, 0, 0.212);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
 }
 .blurTitle h1, .blurTitle h2, .blurTitle h3 {
     color: white;
@@ -94,6 +94,7 @@
 
 .timeline p {
     margin-left: 20px;
+    text-indent: 0;
 }
 .timeline h3 {
     margin-left: 25px;
