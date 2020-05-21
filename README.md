@@ -15,7 +15,7 @@
 - [x] `lookFor.html`
 - [x] `tips.html`
 - [x] `stolen.html`
-- [ ] `fico.html`
+- [x] `fico.html`
 - [x] `glossary.html`
     - [x] Card styles & `JS` filling functionality
 - [ ] `worksCited.html`
@@ -25,6 +25,5 @@
 ### Other Things:
 - [x] `navigation.js` and `navigation.css`
 - [x] Break up and organize `styles.css`
-- [ ] Add pictures, if time
-- [ ] Add a game on one of the pages, if time (for funzies 🎮)
+- [x] Add pictures, if time
 - [ ] Need to scroll to `header` after pressing the `next` or `back` buttons
