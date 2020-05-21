@@ -14,7 +14,7 @@
     - [x] Timeline styles
 - [x] `lookFor.html`
 - [x] `tips.html`
-- [ ] `stolen.html`
+- [x] `stolen.html`
 - [ ] `fico.html`
 - [x] `glossary.html`
     - [x] Card styles & `JS` filling functionality
