@@ -17,7 +17,7 @@ navBtn.appendChild(navigationDiv)
 // items are: page title, doc name, and ""
 const navItems = [
     ["Debit Cards vs. Credit Cards", "debitCredit.html", "#a83632"],
-    ["Standard Credit Cards vs. Charged Cards", "standardCharge.html", "#d97c11"],
+    ["Standard Credit Cards vs. Charge Cards", "standardCharge.html", "#d97c11"],
     ["Credit Card Pros & Cons", "prosCons.html", "#c7c428"],
     ["What To Look For", "lookFor.html", "#25941f"],
     ["Credit Card: Common Tips", "tips.html", "#1f9492"],
