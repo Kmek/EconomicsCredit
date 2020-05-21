@@ -41,8 +41,15 @@
     transform: rotateY(180deg);
 }
 
-.flip-card-front h1, .flip-card-back h3 {
+.flip-card-front h1 {
     position: relative;
     top: 50%;
     transform: translateY(calc(-50% - 10px));
+}
+
+.flip-card-back h3 {
+    position: relative;
+    top: 50%;
+    transform: translateY(calc(-50%));
+    margin: 0 4px;
 }

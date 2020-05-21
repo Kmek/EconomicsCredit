@@ -6,7 +6,7 @@ var terms = [{
     def: "Interest is the charge for the privilege of borrowing money, typically expressed as annual percentage rate (APR).",
 }, {
     name: "Annual Fee",
-    def: "Any fee that is charged on an annual (yearly) basis, usually charged by some credit card companies to their credit card holders simply for having the credit card.",
+    def: "Any fee that is charged on an annual (yearly) basis, usually charged by some companies to their card holders simply for having the card.",
 }, {
     name: "Annual Percentage Rate (APR)",
     def: "The annual rate of interest charged to borrowers and paid to investors, including any fees or additional costs associated with the transaction.",
@@ -27,7 +27,7 @@ var terms = [{
     def: "A set length of time after the due date during which payment may be made without penalty.",
 }, {
     name: "Schumer Box",
-    def: "A mandatory table that appears in credit card agreements showing basic information about the card’s rates and fees.",
+    def: "A mandatory table that appears in credit card agreements showing basic information about the card's rates and fees.",
 }, {
     name: "Secure Credit Cards",
     def: "A type of credit card that is backed by a cash deposit from the cardholder. This acts as collateral on the account, in case the cardholder can't make payments.",
