@@ -6,7 +6,6 @@
 
 ---
 # Todo
----
 
 ### Pages in `/docs/`:
 - [x] `debitCredit.html`
@@ -14,7 +13,7 @@
 - [x] `prosCons.html`
     - [x] Timeline styles
 - [x] `lookFor.html`
-- [ ] `tips.html`
+- [x] `tips.html`
 - [ ] `stolen.html`
 - [ ] `fico.html`
 - [x] `glossary.html`
