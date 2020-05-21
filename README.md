@@ -9,7 +9,7 @@
 ---
 
 ### Pages in `/docs/`:
-- [ ] `debitCredit.html`
+- [x] `debitCredit.html`
 - [ ] `standardCharge.html`
 - [ ] `prosCons.html`
     - [x] Timeline styles

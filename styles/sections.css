@@ -34,6 +34,9 @@
 .box {
     background-color: white;
 }
+.box p {
+    padding: 5px 10px;
+}
 .blurTitle, #preHeader div {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.438);
     background-color: rgba(0, 0, 0, 0.212);
@@ -84,4 +87,10 @@
 
 .timeline p {
     margin-left: 20px;
+}
+.timeline h3 {
+    margin-left: 25px;
+    text-align: left;
+    /* color: black; */
+    font-weight: normal;
 }
