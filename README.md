@@ -13,7 +13,7 @@
 - [x] `standardCharge.html`
 - [x] `prosCons.html`
     - [x] Timeline styles
-- [ ] `lookFor.html`
+- [x] `lookFor.html`
 - [ ] `tips.html`
 - [ ] `stolen.html`
 - [ ] `fico.html`
