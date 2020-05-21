@@ -18,9 +18,9 @@
 - [x] `fico.html`
 - [x] `glossary.html`
     - [x] Card styles & `JS` filling functionality
-- [ ] `worksCited.html`
+- [x] `worksCited.html`
     - [x] `JS` filling functionality
-    - [ ] Finish citing used websites
+    - [x] Finish citing used websites
 
 ### Other Things:
 - [x] `navigation.js` and `navigation.css`
